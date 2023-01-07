@@ -15,7 +15,7 @@ return [
     */
 
     'title' => '',
-    'title_prefix' => 'EMPLEOS | ',
+    'title_prefix' => 'Luz | ',
     'title_postfix' => '',
 
     /*
@@ -45,12 +45,12 @@ return [
     |
     */
 
-    'logo' => '<b>Empleos</b>YA',
+    'logo' => '<b>Luz del </b>mundo',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
-    'logo_img_alt' => 'Empleos YA',
+    'logo_img_alt' => 'misión 20',
 
     /*
     |--------------------------------------------------------------------------
@@ -281,13 +281,13 @@ return [
         ],
         ['header' => 'OPCIONES'],
         [
-            'text' => 'Lista de empleos',
+            'text' => 'Lista de eventos',
             'route' => 'admin.empleos.index',
             'icon' => 'fas fa-fw fa-clipboard',
             'can'  => 'admin.empleos.index',
         ],
         [
-            'text' => 'Crear empleo',
+            'text' => 'Crear evento',
             'route' => 'admin.empleos.create',
             'icon' => 'fas fa-fw fa-file',
             'can'  => 'admin.empleos.create',

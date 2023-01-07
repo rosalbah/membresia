@@ -1,12 +1,12 @@
 @extends('adminlte::page')
 
-@section('title', 'Dasboard')
+@section('title', 'Dashboard')
 
 @section('content_header')
 
-    <a class="btn btn-secondary btn-sm float-right" href="{{ route('admin.empleos.create') }}">Nuevo empleo</a>
+    <a class="btn btn-secondary btn-sm float-right" href="{{ route('admin.empleos.create') }}">Nuevo evento</a>
 
-    <h1>Lista de empleos</h1>
+    <h1>Lista de eventos</h1>
 @stop
 
 @section('content')

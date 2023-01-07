@@ -1,7 +1,7 @@
 <div class="card">
 
     <div class="card-header">
-        <input wire:model="search" class="form-control" placeholder="Ingrese el nombre del empleo">
+        <input wire:model="search" class="form-control" placeholder="Ingrese el nombre del evento">
     </div>
     
     @if ($empleos->count())

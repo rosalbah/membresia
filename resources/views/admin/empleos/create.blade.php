@@ -3,7 +3,7 @@
 @section('title', 'Dasboard')
 
 @section('content_header')
-    <h1>Crear empleos</h1>
+    <h1>Crear eventos</h1>
 @stop
 
 @section('content')
@@ -13,7 +13,7 @@
 
                 @include('admin.empleos.partials.form')
 
-                {!! Form::submit('Crear empleo', ['class' => 'btn btn-primary']) !!}
+                {!! Form::submit('Crear evento', ['class' => 'btn btn-primary']) !!}
 
             {!! Form::close() !!}            
         </div>

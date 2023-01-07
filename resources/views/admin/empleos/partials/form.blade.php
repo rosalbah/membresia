@@ -1,6 +1,6 @@
 <div class="form-group">
     {!! Form::label('name', 'Nombre:') !!}
-    {!! Form::text('name', null, ['class' => 'form-control', 'placeholder' => 'Ingrese el nombre del empleo']) !!}
+    {!! Form::text('name', null, ['class' => 'form-control', 'placeholder' => 'Ingrese el nombre del evento']) !!}
 
     @error('name')
         <small class="text-danger">{{ $message }}</small>
@@ -83,13 +83,13 @@
             @enderror
         </div>
 
-        <p>Puede seleccionar una imagen alusiva a la oferta de empleo o dejar la imagen predeterminada</p>
+        <p>Puede seleccionar una imagen alusiva al evento o dejar la imagen predeterminada</p>
     </div>
 </div>
 
 <div class="form-group">
     {!! Form::label('extracto', 'Extracto:') !!}
-    {!! Form::textarea('extracto', null, ['class' => 'form-control', 'placeholder' => 'Ingrese el extracto del empleo']) !!}
+    {!! Form::textarea('extracto', null, ['class' => 'form-control', 'placeholder' => 'Ingrese el extracto del evento']) !!}
    
     @error('extracto')
         <small class="text-danger">{{ $message }}</small>
@@ -98,7 +98,7 @@
 
 <div class="form-group">
     {!! Form::label('descripcion', 'Descripción:') !!}
-    {!! Form::textarea('descripcion', null, ['class' => 'form-control', 'placeholder' => 'Ingrese la descripción del empleo']) !!}
+    {!! Form::textarea('descripcion', null, ['class' => 'form-control', 'placeholder' => 'Ingrese la descripción del evento']) !!}
     
     @error('descripcion')
         <small class="text-danger">{{ $message }}</small>
